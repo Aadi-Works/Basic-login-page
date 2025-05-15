@@ -1,0 +1,97 @@
+h2{
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border : 2px solid black;
+    padding : 15px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    font-size: 20px;
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+form{
+    margin: auto auto;
+    width: 300px;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: beige;
+    margin-top: 2em ;
+}
+
+label{
+    text-align: right;
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea{
+    font: sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width : 300px;
+    height: 35px;
+    
+}
+
+#sub{
+    font: sans-serif;
+    width: 300px;
+    height: 35px;
+    border :1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    transition-duration: 0.5s;
+    background-color: blue;
+    color: white;
+    
+}
+
+#sub:hover{
+    background-color: rgb(0, 0, 200);
+    color : white;
+    border: 1.5px solid white;
+}
+
+P{
+    margin-left: 123px;
+    color: blue;
+    font-size: 17px;
+}
+
+#signup{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    width: 250px;
+    height: 35px;
+    margin-left :auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+    text-align: center;
+    display: block;
+    background-color: green;
+    color: white;
+}
+
+hr{
+    margin-top: 35px;
+    border: 0.1px solid black;
+    width: 100%;
+}
+
+#signup:hover{
+    background-color: rgb(0, 100, 0);
+    color: white;
+    border: 1.5px solid white;
+}
